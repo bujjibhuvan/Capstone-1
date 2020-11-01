@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu
 RUN DEBIAN_FRONTEND=noninteractive \
 TZ=Asia/Singapore
 RUN apt-get update
