@@ -17,7 +17,7 @@ prefs = {'download.default_directory' : os.getcwd()}
 chrome_options.add_experimental_option('prefs', prefs)
 
 # Optional argument, if not specified will search path.
-driver = webdriver.Chrome('/usr/local/bin/chromedriver',chrome_options=chrome_op                                                                                        tions,service_args=['--verbose', '--log-path=/tmp/chromedriver.log'])
+driver = webdriver.Chrome('/usr/local/bin/chromedriver',chrome_options=chrome_options,service_args=['--verbose', '--log-path=/tmp/chromedriver.log'])
 chrome_options=chrome_options
 
 # Scraping steps
